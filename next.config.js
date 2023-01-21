@@ -13,8 +13,8 @@
 
 
 module.exports = {
-  basePath: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
-  assetPrefix: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
+  basePath: process.env.NODE_ENV === "production" ? "/bialoskorski.eu" : undefined,
+  assetPrefix: process.env.NODE_ENV === "production" ? "/bialoskorski.eu" : undefined,
   images: {
     loader: 'imgix',
     path: 'bialoskorski.imgix.net',
