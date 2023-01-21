@@ -1,14 +1,17 @@
-const isGithubActions = process.env.GITHUB_ACTIONS || false
+// const isGithubActions = process.env.GITHUB_ACTIONS || false
 
-let assetPrefix = ''
-let basePath = '/'
+// let assetPrefix = ''
+// let basePath = '/'
 
-if (isGithubActions) {
-  //const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
+// if (isGithubActions) {
+//   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
 
-  assetPrefix = `/bialoskorski.eu/`
-  basePath = `/bialoskorski.eu`
-}
+//   assetPrefix = `/${repo}/`
+//   basePath = `/${repo}`
+// }
+
+basePath: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
+assetPrefix: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
 
 module.exports = {
   assetPrefix: assetPrefix,
