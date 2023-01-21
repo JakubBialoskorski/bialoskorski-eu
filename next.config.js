@@ -16,6 +16,6 @@ module.exports = {
   images: {
     loader: 'imgix',
     path: 'bialoskorski.imgix.net',
-    domains: ['bialoskorski.eu']
+    //domains: ['bialoskorski.eu']
   },
 }
