@@ -10,12 +10,11 @@
 //   basePath = `/${repo}`
 // }
 
-basePath: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
-assetPrefix: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
+
 
 module.exports = {
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+  basePath: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
+  assetPrefix: process.env.NODE_ENV === "production" ? "/bialoskorski-eu" : undefined,
   images: {
     loader: 'imgix',
     path: 'bialoskorski.imgix.net',
