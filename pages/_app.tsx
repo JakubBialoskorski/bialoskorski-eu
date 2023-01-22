@@ -7,7 +7,30 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <CookieConsent>This website uses <Link href="https://www.cloudflare.com/learning/privacy/what-are-cookies/">cookies</Link> to enhance the user experience.</CookieConsent>
+      <CookieConsent
+      //enableDeclineButton
+      flipButtons
+      location="bottom"
+      buttonText="I understand"
+      cookieName="bialoskorski-eu-cookies"
+      style={{ background: 'black' }}
+      buttonStyle={{
+        color: '#000',
+        fontSize: '15px',
+      }}
+      // declineButtonStyle={{
+      //   margin: '10px 10px 10px 0',
+      // }}
+      expires={450}
+    >
+      This website uses <Link href="https://www.cloudflare.com/learning/privacy/what-are-cookies/">cookies</Link> to enhance the user experience.
+    </CookieConsent>
     </>
   ) 
 }
+
+
+
+
+
+//<Link href="https://www.cloudflare.com/learning/privacy/what-are-cookies/"></Link>
