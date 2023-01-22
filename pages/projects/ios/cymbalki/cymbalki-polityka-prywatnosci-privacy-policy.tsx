@@ -39,7 +39,7 @@ export default function CymbalkiPrivacyPage() {
                             I do not use any external Service Providers, apart from Swift libraries.
 
                             <p>**Security**</p>
-                            Remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+                            Remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee it`s absolute security.
 
                             <p>**Links to Other Sites**</p>
                             This Service do not contain any links, even my own.
