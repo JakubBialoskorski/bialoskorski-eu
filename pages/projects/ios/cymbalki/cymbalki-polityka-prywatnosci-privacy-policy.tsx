@@ -32,7 +32,7 @@ export default function CymbalkiPrivacyPage() {
                             I do not log ANY data, period.
 
                             <p>**Cookies**</p>
-                            Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+                            Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device`s internal memory.
                             This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
 
                             <p>**Service Providers**</p>
@@ -44,7 +44,7 @@ export default function CymbalkiPrivacyPage() {
                             <p>**Links to Other Sites**</p>
                             This Service do not contain any links, even my own.
 
-                            <p>**Children's Privacy**</p>
+                            <p>**Children`s Privacy**</p>
                             These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
 
                             <p>**Changes to This Privacy Policy**</p>
