@@ -3,10 +3,10 @@ import Head from "next/head"
 import {useRouter} from "next/router"
 
 export default function Certificates() {
-    const router = useRouter();
-    const forceReload = () => {
-        router.reload();
-    }
+  const router = useRouter();
+  const forceReload = () => {
+    router.reload();
+  }
   return (
     <>
     <Head>
