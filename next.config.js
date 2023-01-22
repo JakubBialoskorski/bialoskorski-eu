@@ -1,3 +1,6 @@
+// Below configuration is only needed when using GitHub Pages native domains.
+// It can be safely disabled when using custom domain.
+
 // const isGithubActions = process.env.GITHUB_ACTIONS || false
 
 // let assetPrefix = ''
