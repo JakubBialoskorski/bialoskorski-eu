@@ -1,13 +1,18 @@
 import Link from "next/link"
 import Head from "next/head"
+import {useRouter} from "next/router"
 
 export default function Certificates() {
+    const router = useRouter();
+    const forceReload = () => {
+        router.reload();
+    }
   return (
     <>
     <Head>
       <title>Jakub Białoskórski - certificates</title>
       <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
-      <script src="/transition.js" async />
+      <script src="/transition.js" async onLoad={forceReload}/>
     </Head>
       <div id="menu">
         <div id="menu-items">

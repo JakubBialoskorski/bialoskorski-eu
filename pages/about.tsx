@@ -5,14 +5,19 @@ import {
   AiOutlineMail,
   AiFillGithub
 } from "react-icons/ai";
+import {useRouter} from "next/router"
 
 export default function About() {
+  const router = useRouter();
+  const forceReload = () => {
+    router.reload();
+  }
   return (
     <>
     <Head>
       <title>Jakub Białoskórski - about me</title>
       <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
-      <script src="/transition.js" async />
+      <script src="/transition.js" async onLoad={forceReload}/>
     </Head>
       <div id="menu">
         <div id="menu-items">
