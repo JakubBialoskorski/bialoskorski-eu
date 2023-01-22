@@ -2,7 +2,8 @@ import Link from "next/link"
 import Head from "next/head"
 import {
   AiFillLinkedin,
-  AiOutlineMail
+  AiOutlineMail,
+  AiFillGithub
 } from "react-icons/ai";
 
 export default function About() {
@@ -27,7 +28,7 @@ export default function About() {
                 </div>
                 <div className="flex flex-wrap w-full">
                     <div className="w-full p-1 md:p-2">
-                      <span>Feel free to contact me via: <div className="flex justify-left"><Link href="mailto:bialoskorski@icloud.com"><AiOutlineMail size="2em"/></Link></div> <div className="flex justify-left"><Link href="https://www.linkedin.com/in/jakub-bialoskorski"><AiFillLinkedin size="2em"/></Link></div></span>
+                      <span>Feel free to contact me via: <div className="flex justify-left"><Link href="mailto:bialoskorski@icloud.com"><AiOutlineMail size="2em"/></Link><Link href="https://www.linkedin.com/in/jakub-bialoskorski"><AiFillLinkedin size="2em"/></Link><Link href="https://github.com/JakubBialoskorski"><AiFillGithub size="2em"/></Link></div></span>
                     </div>
                 </div>
             </div>
