@@ -6,3 +6,4 @@ This is an MVP of new portfolio webpage, written entirely in NextJS + TailWind C
 
 Roadmap:
 * migration to NextJS 13 new `/app` directory
+* dynamic sitemap.xml via API
