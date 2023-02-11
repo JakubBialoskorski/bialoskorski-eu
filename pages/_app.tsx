@@ -28,9 +28,3 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   ) 
 }
-
-
-
-
-
-//<Link href="https://www.cloudflare.com/learning/privacy/what-are-cookies/"></Link>
