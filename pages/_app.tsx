@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
       // }}
       expires={450}
     >
-      This website uses <Link href="https://www.cloudflare.com/learning/privacy/what-are-cookies/">cookies</Link> to enhance the user experience.
+      This website uses <Link href="https://www.cloudflare.com/learning/privacy/what-are-cookies/"><u>cookies</u></Link> to enhance the user experience.
     </CookieConsent>
     </>
   ) 
