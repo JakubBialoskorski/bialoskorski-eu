@@ -40,3 +40,18 @@ describe('Testing About section', () => {
     })
   })
   
+  describe('Testing Main section', () => {
+    it('should navigate to the main page and check links', () => {
+      // Start from the index page
+      cy.visit('http://localhost:3000/')
+
+      // Find a link with an href attribute containing "about"
+      cy.get('a[href*="about"]')
+  
+      // Find a link with an href attribute containing "JakubBialoskorski"
+      cy.get('a[href*="JakubBialoskorski"]')
+
+      // Find a link with an href attribute containing "certificates"
+      cy.get('a[href*="certificates"]')
+    })
+  })
