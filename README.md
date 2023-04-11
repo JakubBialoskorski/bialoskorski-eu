@@ -6,4 +6,3 @@ Portfolio webpage, written entirely in NextJS + TailWind CSS.
 
 Roadmap:
 * migration to NextJS 13 new `/app` directory
-* dynamic sitemap.xml via API
