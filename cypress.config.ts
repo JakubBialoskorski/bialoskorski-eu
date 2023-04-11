@@ -6,4 +6,10 @@ export default defineConfig({
       'http://localhost:3000'
     },
   },
+  component: {
+    devServer: {
+      framework: 'next',
+      bundler: 'webpack',
+    },
+  },
 });
