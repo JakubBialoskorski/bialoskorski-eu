@@ -18,7 +18,7 @@ export default function Certificates() {
         <div id="menu-items">
           <Link href="/"><div className="menu-item">back</div></Link>
         </div>
-        <section className="overflow-hidden text-gray-700">
+        <section className="overflow-hidden text-white">
         <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32" id="gallery-items">
             <div className="flex flex-wrap -m-1 md:-m-2">
                 <div className="flex flex-wrap w-1/3">
