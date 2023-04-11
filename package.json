@@ -7,7 +7,8 @@
     "build": "next build && next export && touch out/.nojekyll",
     "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -16,6 +17,7 @@
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "next": "13.0.3",
+    "next-sitemap": "4.0.7",
     "react": "18.2.0",
     "react-cookie-consent": "8.0.1",
     "react-dom": "18.2.0",
