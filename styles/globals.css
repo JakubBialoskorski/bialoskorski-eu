@@ -169,7 +169,7 @@ body {
   position: relative;
   z-index: 2;
   font-family: 'Ibarra Real Nova', serif;
-  font-size: clamp(2rem, 1vw, 2rem);
+  font-size: clamp(1rem, 2vw, 3rem);
 }
 
 .about-item {
