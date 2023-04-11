@@ -7,5 +7,6 @@ Portfolio webpage, written entirely in NextJS + TailWind CSS.
 SEO is handled automatically by postbuild scripts.
 
 Roadmap:
+* components tests (parallel run along E2E)
 * migration to NextJS 13 new `/app` directory
 * more API calls (apart from the dynamic `/api/users/{name}`)
