@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
       //   margin: '10px 10px 10px 0',
       // }}
       expires={450}
-    >
+      >
       This website uses <Link href="https://www.cloudflare.com/learning/privacy/what-are-cookies/"><u>cookies</u></Link> to enhance the user experience.
     </CookieConsent>
     </>
