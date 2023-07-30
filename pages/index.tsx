@@ -7,9 +7,9 @@ export default function Home() {
     <Head>
       <title>Jakub Białoskórski - portfolio</title>
       <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
-      <meta name="description" content="Senior DevOps & AWS Cloud Engineer">
-      <meta name="keywords" content="devops, cloud engineer, aws">
-      <meta name="author" content="Jakub Białoskórski">
+      <meta name="description" content="Senior DevOps & AWS Cloud Engineer" />
+      <meta name="keywords" content="devops, cloud engineer, aws" />
+      <meta name="author" content="Jakub Białoskórski" />
       <script src="/transition.js" async />
     </Head>
       <div id="menu">
