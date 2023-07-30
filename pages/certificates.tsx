@@ -12,6 +12,9 @@ export default function Certificates() {
     <Head>
       <title>Jakub Białoskórski - certificates</title>
       <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
+      <meta name="description" content="Senior DevOps & AWS Cloud Engineer" />
+      <meta name="keywords" content="devops, cloud engineer, aws" />
+      <meta name="author" content="Jakub Białoskórski" />
       <script src="/transition.js" async onLoad={forceReload}/>
     </Head>
       <div id="menu">
