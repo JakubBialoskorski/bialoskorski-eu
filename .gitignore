@@ -45,3 +45,7 @@ next-env.d.ts
 
 # Cypress
 /cypress/videos/*
+
+# Build
+
+package-lock.json
