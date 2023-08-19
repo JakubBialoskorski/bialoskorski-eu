@@ -14,12 +14,12 @@
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\""
   },
   "dependencies": {
-    "@types/node": "20.3.1",
+    "@types/node": "20.4.4",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.4",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.12",
-    "next": "13.4.10",
+    "next": "13.4.12",
     "next-sitemap": "4.0.9",
     "react": "18.2.0",
     "react-cookie-consent": "8.0.1",
