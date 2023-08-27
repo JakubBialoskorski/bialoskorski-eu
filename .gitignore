@@ -45,3 +45,4 @@ next-env.d.ts
 
 # Cypress
 /cypress/videos/*
+/cypress/screenshots/*
