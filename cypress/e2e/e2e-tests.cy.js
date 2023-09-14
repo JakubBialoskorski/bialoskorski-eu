@@ -34,14 +34,35 @@ describe('Testing About section', () => {
 })
   
 describe('Testing Certificates section', () => {
-    it('should navigate to the certificates page', () => {
-      // Start from the index page
-      cy.visit('http://localhost:3000/')
-      // Find a link with an href attribute containing "certificates" and click it
-      cy.get('a[href*="certificates"]').click()
-      // The new url should include "/certificates"
-      cy.url().should('include', '/certificates')
-      // The new page should contain a title with "certificates"
-      cy.get('title').contains('certificates')
-    })
+  it('should navigate to the certificates page', () => {
+    // Start from the index page
+    cy.visit('http://localhost:3000/')
+    // Find a link with an href attribute containing "certificates" and click it
+    cy.get('a[href*="certificates"]').click()
+    // The new URL should include "/certificates"
+    cy.url().should('include', '/certificates')
+    // The new page should contain a title with "certificates"
+    cy.get('title').contains('certificates')
+  })
+
+  it('should load all certificates images', () => {
+    // Start from the index page
+    cy.visit('http://localhost:3000/')
+    // Find a link with an href attribute containing "certificates" and click it
+    cy.get('a[href*="certificates"]').click()
+    // The new URL should include "/certificates"
+    cy.url().should('include', '/certificates')
+    // The new page should contain a title with "certificates"
+    cy.get('title').contains('certificates')
+    // Check if the images are loading correctly
+    cy.get('img[alt="gallery"]')
+      .should('be.visible')
+      .and(($img) => {
+        // Check that exactly 7 images are present and loaded correctly
+        expect($img.length).to.equal(7)
+        $img.each((index, imgElement) => {
+          expect(imgElement.naturalWidth).to.be.greaterThan(0)
+        })
+      })
+  })
 })
