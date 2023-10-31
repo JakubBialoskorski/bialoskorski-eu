@@ -12,14 +12,14 @@ export default function MinSpeedPrivacyPage() {
       <div id="menu">
         <div id="menu-items">
           {/* replace link below after deployment */}
-          <Link href="bialoskorski.eu"><div className="menu-item">back to AppStore</div></Link> 
+          <Link href="https://bialoskorski.eu"><div className="menu-item">back to AppStore</div></Link> 
         </div>
         <section className="overflow-hidden text-white">
         <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32" id="about-items">
             <div className="flex flex-wrap -m-1 md:-m-2">
                 <div className="flex flex-wrap w-full">
                     <div className="w-full p-1 md:p-1 text-sm">
-                        <div className="flex flex-wrap w-full">
+                            
                             <p>**Privacy Policy**</p>
                             Jakub Bialoskorski built the MinSpeed app as a Free app. This SERVICE is provided by Jakub Bialoskorski at no cost and is intended for use as is.
                             This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
@@ -54,7 +54,7 @@ export default function MinSpeedPrivacyPage() {
 
                             <p>**Contact me**</p>
                             If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at <Link href="mailto:support@bialoskorski.eu">support@bialoskorski.eu</Link>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
