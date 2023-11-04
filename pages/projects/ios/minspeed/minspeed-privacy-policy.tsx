@@ -11,8 +11,7 @@ export default function MinSpeedPrivacyPage() {
     </Head>
       <div id="menu">
         <div id="menu-items">
-          {/* replace link below after deployment */}
-          <Link href="https://bialoskorski.eu"><div className="menu-item">back to AppStore</div></Link> 
+          <Link href="https://apps.apple.com/us/app/minspeed/id6470914321"><div className="menu-item">back to AppStore</div></Link> 
         </div>
         <section className="overflow-hidden text-white">
         <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32" id="about-items">

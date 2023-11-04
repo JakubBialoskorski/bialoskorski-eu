@@ -20,8 +20,7 @@ export default function MinSpeedSupportPage() {
                     <div className="w-full p-1 md:p-2">
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-12">
-                                {/* replace link below after deployment */}
-                                <Link href="https://bialoskorski.eu"><img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+                                <Link href="https://apps.apple.com/us/app/minspeed/id6470914321"><img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                                 src="https://bialoskorski.imgix.net/minspeed_icon.png" /></Link>
                             </div>
                         </div>
