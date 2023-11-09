@@ -22,52 +22,52 @@ function Certificates() {
 				<div className='pictures'>
 					<div className='picture'>
 						<Link
-							href='https://bialoskorski.imgix.net/Microsoft.png'
+							href='https://bialoskorski.imgix.net/Microsoft.png?fm=png&auto=format'
 							target='_blank'>
-							<img alt='gallery' src='/certificates/Microsoft.png' />
+							<img alt='Microsoft-Certificate' src='https://bialoskorski.imgix.net/Microsoft.png?fm=png&auto=compress&w=600' />
 						</Link>
 					</div>
 					<div className='picture'>
 						<Link
-							href='https://bialoskorski.imgix.net/OpenSUSE.png'
+							href='https://bialoskorski.imgix.net/OpenSUSE.png?fm=png&auto=format'
 							target='_blank'>
-							<img alt='gallery' src='/certificates/OpenSUSE.png' />
+							<img alt='OpenSUSE-Certificate' src='https://bialoskorski.imgix.net/OpenSUSE.png?fm=png&auto=compress&w=600' />
 						</Link>
 					</div>
 					<div className='picture'>
 						<Link
-							href='https://bialoskorski.imgix.net/NetWare.png'
+							href='https://bialoskorski.imgix.net/NetWare.png?fm=png&auto=format'
 							target='_blank'>
-							<img alt='gallery' src='/certificates/NetWare.png' />
+							<img alt='NetWare-Certificate' src='https://bialoskorski.imgix.net/NetWare.png?fm=png&auto=compress&w=600' />
 						</Link>
 					</div>
 					<div className='picture'>
 						<Link
-							href='https://bialoskorski.imgix.net/AWS-Certified-Developer-Linux-Academy.png'
+							href='https://bialoskorski.imgix.net/AWS-Certified-Developer-Linux-Academy.png?fm=png&auto=format'
 							target='_blank'>
-							<img alt='gallery' src='/certificates/AWS-Dev.png' />
+							<img alt='AWS-Certified-Developer-Linux-Academy' src='https://bialoskorski.imgix.net/AWS-Certified-Developer-Linux-Academy.png?fm=png&auto=compress&w=600' />
 						</Link>
 					</div>
 
 					<div className='picture'>
 						<Link
-							href='https://bialoskorski.imgix.net/CERTYFIKAT_EN-219.png'
+							href='https://bialoskorski.imgix.net/CERTYFIKAT_EN-219.png?fm=png&auto=format'
 							target='_blank'>
-							<img alt='gallery' src='/certificates/SecurityAcademy.png' />
+							<img alt='EN-219-IT-Security-Academy-Certificate' src='https://bialoskorski.imgix.net/CERTYFIKAT_EN-219.png?fm=png&auto=compress&w=600' />
 						</Link>
 					</div>
 					<div className='picture'>
 						<Link
-							href='https://bialoskorski.imgix.net/Google-Marketing-Certificate.png'
+							href='https://bialoskorski.imgix.net/Google-Marketing-Certificate.png?fm=png&auto=format'
 							target='_blank'>
-							<img alt='gallery' src='/certificates/GoogleMarketing.png' />
+							<img alt='Google-Marketing-Certificate' src='https://bialoskorski.imgix.net/Google-Marketing-Certificate.png?fm=png&auto=compress&w=600' />
 						</Link>
 					</div>
 					<div className='picture'>
 						<Link
 							href='https://www.credly.com/badges/96005f5b-8e07-4ef8-a178-eba364a99ee0/public_url'
 							target='_blank'>
-							<img alt='gallery' src='/certificates/Istio.png' />
+							<img alt='Istio-Certificate' src='https://images.credly.com/size/340x340/images/7a5401a6-01eb-4f48-bbcd-9a227fdff361/image.png' />
 						</Link>
 					</div>
 				</div>
