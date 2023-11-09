@@ -1,10 +1,18 @@
 import Link from 'next/link'
+import Head from 'next/head'
 import Dots from './components/dots'
 
 function Certificates() {
 	Dots()
+
 	return (
 		<>
+			<Head>
+				<title>Jakub Białoskórski - certificates</title>
+				<meta name='description' content='Senior DevOps & AWS Cloud Engineer' />
+				<meta name='keywords' content='devops, inżynier cloud, aws' />
+				<meta name='author' content='Jakub Białoskórski' />
+			</Head>
 			<div className='menu'>
 				<div className='menu-items'>
 					<Link href='/'>
