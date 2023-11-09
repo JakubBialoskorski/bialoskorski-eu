@@ -11,7 +11,7 @@ export default function CymbalkiPrivacyPage() {
     </Head>
       <div id="menu">
         <div id="menu-items">
-          <Link href="https://apps.apple.com/pl/app/dot-xylophone/id1544977962"><div className="menu-item">back to AppStore</div></Link>
+          <Link href="https://apps.apple.com/en/app/dot-xylophone/id1544977962"><div className="menu-item">back to AppStore</div></Link>
         </div>
         <section className="overflow-hidden text-white">
         <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32" id="about-items">
