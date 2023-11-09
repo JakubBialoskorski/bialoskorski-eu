@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+	.menu {
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.menu-items {
+		margin-left: 0;
+        margin-bottom: 5vmin;
+	}
+	.about {
+		margin: 7vmin;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.menu {
+		margin: 0 auto;
+	}
+	.contactLinks > * {
+		font-size: min(6vw, 80px);
+	}
+	.picture {
+		margin: 2vmin 2vmax;
+		width: min(15vw, 30vw);
+		z-index: 30;
+	}
+}
+@media (min-width: 1610px) {
+	.menu-background-image {
+		background-size: 160vmax;
+	}
+	.menu-items:hover ~ .menu-background-image {
+		background-size: 150vmax;
+	}
+}

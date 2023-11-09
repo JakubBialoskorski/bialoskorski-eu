@@ -1,0 +1,25 @@
+.pictures {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	max-height: 100vh;
+}
+.picture {
+	margin: 1vh 1vw;
+	width: min(25vmin, 40vw);
+	z-index: 30;
+}
+img {
+	border: none;
+	border-radius: 5%;
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease;
+}
+img:hover {
+	transform: scale(1.05);
+	transition: transform 400ms ease;
+}
