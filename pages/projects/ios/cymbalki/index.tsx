@@ -20,7 +20,7 @@ export default function CymbalkiSupportPage() {
                     <div className="w-full p-1 md:p-2">
                         <div className="flex flex-wrap w-1/3">
                             <div className="w-full p-1 md:p-12">
-                                <Link href="https://apps.apple.com/us/app/dot-xylophone/id1544977962"><img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+                                <Link href="https://apps.apple.com/en/app/dot-xylophone/id1544977962"><img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                                 src="https://bialoskorski.imgix.net/cymbalki_icon.png" /></Link>
                             </div>
                         </div>

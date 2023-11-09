@@ -55,7 +55,7 @@ describe('Testing Certificates section', () => {
     // The new page should contain a title with "certificates"
     cy.get('title').contains('certificates')
     // Check if the images are loading correctly
-    cy.get('img[alt="gallery"]')
+    cy.get('img')
       .should('be.visible')
       .and(($img) => {
         // Check that exactly 7 images are present and loaded correctly
