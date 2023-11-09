@@ -4,10 +4,10 @@ import Dots from './components/dots'
 
 function Home() {
 	Dots()
-	
+
 	return (
 		<>
-		<Head>
+			<Head>
 				<title>Jakub Białoskórski - portfolio</title>
 				<meta name='description' content='Senior DevOps & AWS Cloud Engineer' />
 				<meta name='keywords' content='devops, inżynier cloud, aws' />
