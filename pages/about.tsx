@@ -22,9 +22,9 @@ function About() {
 				</div>
 				<div className='about'>
 					<span>
-						I am a DevOps engineer with ~8 years of experience,
+						I am a DevOps engineer with 9 years of experience,
 						<br />
-						mostly focused on AWS.
+						focused mainly on AWS.
 					</span>
 					<span>
 						Feel free to contact me via:{' '}
