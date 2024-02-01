@@ -6,36 +6,28 @@
 	height: 100vh;
 	opacity: 0.15;
 	position: absolute;
-	transition: opacity 800ms ease, background-size 800ms ease,
-		background-position 800ms ease;
+	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
 	width: 100vw;
 	z-index: 0;
 }
 .menu-background-pattern {
-	background-image: radial-gradient(
-		rgba(255, 255, 255, 0.1) 9%,
-		transparent 9%
-	);
-	background-position: 60% -60%;
+	background-image: radial-gradient(rgba(255, 255, 255, 0.1) 9%, transparent 9%);
+	background-position: 50% -60%;
 	background-size: 8vmin 8vmin;
 	height: 100vh;
 	position: absolute;
-	transition: opacity 800ms ease, background-size 800ms ease,
-		background-position 800ms ease;
+	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
 	width: 100vw;
 	z-index: 1;
 }
 .menu[data-active-index='0'] > .menu-background-pattern {
-	background-position: 50% -50%;
+	background-position-y: -60%;
 }
 .menu[data-active-index='1'] > .menu-background-pattern {
-	background-position: 50% -65%;
+	background-position-y: -70%;
 }
 .menu[data-active-index='2'] > .menu-background-pattern {
-	background-position: 50% -80%;
-}
-.menu[data-active-index='3'] > .menu-background-pattern {
-	background-position: 50% -95%;
+	background-position-y: -80%;
 }
 .menu[data-active-index='0'] > .menu-background-image {
 	background-position: center 45%;
@@ -46,34 +38,13 @@
 .menu[data-active-index='2'] > .menu-background-image {
 	background-position: center 55%;
 }
-.menu[data-active-index='3'] > .menu-background-image {
-	background-position: center 60%;
-}
 .menu-items:hover ~ .menu-background-pattern {
 	opacity: 0.5;
 	background-size: 6.5vmin 6.5vmin;
-
+	background-position-x: 40%;
 }
 .menu-items:hover ~ .menu-background-image {
 	opacity: 0.1;
 	background-size: 170vmax;
-	transition: opacity 800ms ease, background-size 800ms ease,
-		background-position 800ms ease;
-}
-.menu-items:hover > .menu-item {
-	opacity: 0.3;
-}
-.menu-items:hover > .menu-item:hover {
-	opacity: 1;
-}
-.menu-items:hover > a:link,
-.menu-items:hover > a:active,
-.menu-items:hover > a:visited {
-	opacity: 0.3;
-	transition: opacity 400ms ease-in-out;
-}
-
-.menu-items:hover > a:hover {
-	opacity: 1;
-	transition: opacity 400ms ease-in-out;
+	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
 }
