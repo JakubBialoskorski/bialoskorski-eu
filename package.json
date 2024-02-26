@@ -14,7 +14,7 @@
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\""
   },
   "dependencies": {
-    "@types/node": "20.11.10",
+    "@types/node": "20.11.16",
     "@types/react-dom": "18.2.18",
     "@types/react": "18.2.52",
     "eslint": "8.56.0",
