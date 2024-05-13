@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && touch out/.nojekyll",
     "export": "next export",
-    "start": "next start", // use "npx serve@latest out" if needed
+    "start": "next start",
     "lint": "next lint",
     "postbuild": "next-sitemap",
     "cypress": "cypress open",
