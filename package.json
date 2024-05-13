@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && touch out/.nojekyll",
+    "build": "next build && touch out/.nojekyll",
     "export": "next export",
-    "start": "next start",
+    "start": "next start", // use "npx serve@latest out" if needed
     "lint": "next lint",
     "postbuild": "next-sitemap",
     "cypress": "cypress open",
