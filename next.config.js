@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 
-module.exports = {
+const nextConfig = {
+  output: 'export',
   images: {
     loader: 'imgix',
     path: 'bialoskorski.imgix.net',
-  },
-  // Updated output configuration for Next.js 14.x
-  output: 'export'
+  }
 }
+ 
+module.exports = nextConfig
