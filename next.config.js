@@ -1,24 +1,16 @@
-// Below configuration is only needed when using GitHub Pages native domains.
-// It can be safely disabled when using custom domain.
+const { default: next } = require('next')
 
-// const isGithubActions = process.env.GITHUB_ACTIONS || false
+// Below configuration required by next 14.x
 
-// let assetPrefix = ''
-// let basePath = '/'
-
-// if (isGithubActions) {
-//   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
-
-//   assetPrefix = `/${repo}/`
-//   basePath = `/${repo}`
-// }
-
-module.exports = {
-  // assetPrefix: assetPrefix,
-  // basePath: basePath,
+**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  output: 'export',
   images: {
     loader: 'imgix',
     path: 'bialoskorski.imgix.net',
-    //domains: ['bialoskorski.eu']
-  },
+  }
 }
+
+module.exports = nextConfig
