@@ -14,7 +14,7 @@ function About() {
 				<meta name='keywords' content='devops, inżynier cloud, aws' />
 				<meta name='author' content='Jakub Białoskórski' />
 			</Head>
-			<div className='menu'>
+			<div className='menu notranslate'>
 				<div className='menu-items'>
 					<Link href='/'>
 						<div className='menu-item'>back</div>
