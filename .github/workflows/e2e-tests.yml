@@ -21,8 +21,6 @@ jobs:
         run: npx serve@latest out -l 3000 &
         env:
           CI: true
-      - name: Debug server logs
-        run: cat server.log
       - name: Wait for server
         run: npx wait-on http://127.0.0.1:3000 --timeout 60000
       - name: Check server response
