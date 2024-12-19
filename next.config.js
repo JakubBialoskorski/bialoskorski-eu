@@ -13,12 +13,13 @@
 //   basePath = `/${repo}`
 // }
 
-module.exports = {
-  // assetPrefix: assetPrefix,
-  // basePath: basePath,
+const nextConfig = {
+  output: 'export',
   images: {
     loader: 'imgix',
     path: 'bialoskorski.imgix.net',
     //domains: ['bialoskorski.eu']
-  },
+  }
 }
+
+module.exports = nextConfig
