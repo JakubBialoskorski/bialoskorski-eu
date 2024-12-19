@@ -17,11 +17,13 @@ jobs:
       - name: Build the project
         run: npm run build
       - name: Start server
-        run: npm start &
+        run: npx serve@latest out -l 3000 &
         env:
           CI: true
       - name: Wait for server
-        run: npx wait-on http://127.0.0.1:3000
+        run: npx wait-on http://127.0.0.1:3000 --timeout 60000
+      - name: Check server response
+        run: curl -v http://127.0.0.1:3000
       - name: Cypress run
         uses: cypress-io/github-action@v5
   build:
@@ -42,7 +44,6 @@ jobs:
         run: |
           npm ci
           npm run build
-          npm run export
           touch out/.nojekyll
       - name: Deploy
         # https://github.com/JamesIves/github-pages-deploy-action
