@@ -13,7 +13,7 @@
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\""
   },
   "dependencies": {
-    "@types/node": "20.17.11",
+    "@types/node": "20.17.12",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
     "next": "14.2.22",
