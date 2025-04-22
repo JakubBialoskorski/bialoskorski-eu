@@ -22,12 +22,15 @@ function About() {
 				</div>
 				<div className='about'>
 					<span>
-						I am a DevOps engineer with 10 years of experience,
-						<br />
-						focused mainly on AWS.
+						I'm what I consider to be a DevOps/SRE/SysAdmin/Ops hybrid.
+						<br /><br />
+						I enable dev teams to deliver faster and more secure, ultimately having full monitoring and zero pages.
+						<br /><br />
+						I also specialize in "impossible" tasks, so if you have one - feel free to ping me.
+						<br /><br />
 					</span>
 					<span>
-						Feel free to contact me via:{' '}
+						Contact:{' '}
 						<div className='contactLinks'>
 							<Link href='mailto:bialoskorski@icloud.com'>
 								<AiOutlineMail />
