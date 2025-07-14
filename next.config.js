@@ -17,7 +17,7 @@ const nextConfig = {
   output: 'export',
   images: {
     loader: 'imgix',
-    path: 'bialoskorski.imgix.net',
+    path: 'bialoskorski-eu.imgix.net',
     //domains: ['bialoskorski.eu']
   }
 }
