@@ -26,7 +26,7 @@ function About() {
 						<br /><br />
 						I enable dev teams to deliver faster and more secure, ultimately having full monitoring and zero pages.
 						<br /><br />
-						I also specialize in "impossible" tasks, so if you have one - feel free to ping me.
+						I also specialize in technically / architecturally challenging tasks, so if you have one - feel free to ping me.
 						<br /><br />
 					</span>
 					<span>
