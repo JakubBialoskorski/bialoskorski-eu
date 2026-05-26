@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 25
       - name: Install dependencies
@@ -25,19 +25,14 @@ jobs:
       - name: Check server response
         run: curl -v http://127.0.0.1:3000
       - name: Cypress run
-        uses: cypress-io/github-action@v5
+        uses: cypress-io/github-action@v7
   build:
-    # Tests needs to pass before deploying further
     needs: cypress-run
     runs-on: ubuntu-latest
     steps:
-      # https://github.com/actions/checkout
-      - uses: actions/checkout@v3
-      # a standard step for GitHub actions on Node
-      # https://github.com/actions/setup-node
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          # update the Node version to meet your needs
           node-version: 25
           cache: npm
       - name: Build
@@ -46,8 +41,7 @@ jobs:
           npm run build
           touch out/.nojekyll
       - name: Deploy
-        # https://github.com/JamesIves/github-pages-deploy-action
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: out
