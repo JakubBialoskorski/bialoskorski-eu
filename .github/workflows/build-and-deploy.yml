@@ -25,7 +25,7 @@ jobs:
       - name: Check server response
         run: curl -v http://127.0.0.1:3000
       - name: Cypress run
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
   build:
     needs: cypress-run
     runs-on: ubuntu-latest
