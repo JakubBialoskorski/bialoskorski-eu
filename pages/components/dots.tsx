@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-function Dots() {
+function useDots() {
 	useEffect(() => {
 		let menuEl: any
 		menuEl = document.querySelector('.menu')
@@ -20,4 +20,4 @@ function Dots() {
 	return
 }
 
-export default Dots
+export default useDots
