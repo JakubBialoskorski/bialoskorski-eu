@@ -16,7 +16,7 @@ function useDots() {
 				handleMouseOver(index)
 			})
 		})
-	})
+	}, [])
 	return
 }
 
