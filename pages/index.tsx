@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import Dots from './components/dots'
+import useDots from './components/dots'
 
 function Home() {
-	Dots()
+	useDots()
 
 	return (
 		<>
