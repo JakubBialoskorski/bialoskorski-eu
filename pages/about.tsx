@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import Dots from './components/dots'
+import useDots from './components/dots'
 import { AiFillLinkedin, AiOutlineMail, AiFillGithub } from 'react-icons/ai'
 
 function About() {
-	Dots()
+	useDots()
 
 	return (
 		<>
