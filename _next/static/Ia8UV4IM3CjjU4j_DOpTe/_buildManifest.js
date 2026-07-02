@@ -24,7 +24,6 @@ self.__BUILD_MANIFEST = {
     "/_app",
     "/_error",
     "/about",
-    "/api/users/[username]",
     "/certificates",
     "/components/dots"
   ]
