@@ -28,7 +28,7 @@
   "devDependencies": {
     "autoprefixer": "10.5.0",
     "cypress": "15.15.0",
-    "postcss": "8.5.15"
+    "postcss": "8.5.18"
   },
   "engines": {
     "node": ">=25"
