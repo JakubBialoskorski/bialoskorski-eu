@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@types/react": "19.2.18",
-    "@types/node": "^22.0.0",
+    "@types/node": "^26.1.2",
     "@types/react-dom": "19.2.3",
     "next": "16.2.12",
     "next-sitemap": "4.2.3",
@@ -23,12 +23,12 @@
     "react-dom": "19.2.8",
     "react-icons": "5.7.0",
     "start-server-and-test": "3.0.11",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "devDependencies": {
     "autoprefixer": "10.5.4",
-    "cypress": "15.15.0",
-    "postcss": "8.5.18"
+    "cypress": "15.19.0",
+    "postcss": "8.5.25"
   },
   "engines": {
     "node": ">=25"
