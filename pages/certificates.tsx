@@ -9,8 +9,8 @@ function Certificates() {
 		<>
 			<Head>
 				<title>Jakub Białoskórski - certificates</title>
-				<meta name='description' content='Senior DevOps & AWS Cloud Engineer' />
-				<meta name='keywords' content='devops, inżynier cloud, aws' />
+				<meta name='description' content='DevOps & Platform Engineer | MLOps & AI infrastructure' />
+				<meta name='keywords' content='devops, cloud native, platform engineering, mlops, ai infrastructure, kubernetes, aws, azure, terraform, opentofu, kafka, inżynier cloud' />
 				<meta name='author' content='Jakub Białoskórski' />
 			</Head>
 			<div className='menu notranslate'>

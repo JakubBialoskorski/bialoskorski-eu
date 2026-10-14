@@ -10,8 +10,8 @@ function About() {
 		<>
 			<Head>
 				<title>Jakub Białoskórski - about me</title>
-				<meta name='description' content='Senior DevOps & AWS Cloud Engineer' />
-				<meta name='keywords' content='devops, inżynier cloud, aws' />
+				<meta name='description' content='DevOps & Platform Engineer | MLOps & AI infrastructure' />
+				<meta name='keywords' content='devops, cloud native, platform engineering, mlops, ai infrastructure, kubernetes, aws, azure, terraform, opentofu, kafka, inżynier cloud' />
 				<meta name='author' content='Jakub Białoskórski' />
 			</Head>
 			<div className='menu notranslate'>
@@ -22,11 +22,13 @@ function About() {
 				</div>
 				<div className='about'>
 					<span>
-						I'm what I consider to be a DevOps/SRE/SysAdmin/Ops hybrid.
+						DevOps & Platform Engineer with ~12 years across the stack - from racking physical servers to running multi-account Kubernetes in production.
 						<br /><br />
-						I enable dev teams to deliver faster and more secure, ultimately having full monitoring and zero pages.
+						Building and operating platforms on AWS and Azure that let dev teams deliver faster and more securely - full monitoring on top, zero pages as the ultimate goal.
 						<br /><br />
-						I also specialize in technically / architecturally challenging tasks, so if you have one - feel free to ping me.
+						Same approach applies to ML and AI - taking models from experiments to reliable, observable production.
+						<br /><br />
+						The hard, unglamorous problems - the ones nobody wants to touch - are my favorite. Got one? Feel free to ping me.
 						<br /><br />
 					</span>
 					<span>
